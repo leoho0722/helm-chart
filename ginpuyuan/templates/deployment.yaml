@@ -1,0 +1,83 @@
+# ===== Deployment =====
+
+# Kubernetes 中 Deployment 元件的版本號
+apiVersion: apps/v1
+
+# 該元件的種類
+kind: Deployment
+
+# 該元件的元資料
+metadata:
+  # 這個 Deployment 的名稱
+  name: ginpuyuan-deployment
+  namespace: ginpuyuan
+
+# 這個 Deployment 的 DeploymentSpec
+spec:
+  # 要建立的 Pod 數量
+  # 當現有 Pod 數量小於這邊 replica 設定的數值時，就會自動產生對應數量的 Pod 來補齊
+  replicas: {{ .Values.deployment.replicaCount }}
+
+  # 將更新 Pod 取代舊有 Pod 的政策／策略
+  strategy:
+    # 政策／策略種類，預設為 RollingUpdate
+    type: RollingUpdate
+
+    # rollingUpdate 僅當 type 為 RollingUpdate 時才有效
+    rollingUpdate:
+      # 在 RollingUpdate 過程中，要多比 `replica` 設定的數量生幾個 Pod 出來
+      # 好處是，可以降低在 RollingUpdate 過程中，舊 Pod 內容出現的機率
+      maxSurge: {{ .Values.deployment.maxSurge }}
+
+      # 在 RollingUpdate 過程中，可以允許多少數量的 Pod 無法使用
+      # 若 maxSurge 不為 0，maxUnavailable 也不得為 0
+      maxUnavailable: {{ .Values.deployment.maxUnavailable }}
+
+  # 新建立出來的 Pod 如果沒有任何 Container Crash 的情形發生，
+  # 應準備就緒的最小秒數，預設為 0 (即 Pod 準備就緒後就可視為可用)
+  minReadySeconds: {{ .Values.deployment.minReadySeconds }}
+
+  # 要保留多少數量可以 RollBack 的舊有 ReplicaSet，預設為 10
+  revisionHistoryLimit: {{ .Values.deployment.revisionHistoryLimit }}
+
+  # 要選取的 Pod
+  selector:
+    matchLabels:
+      app: backend
+
+  # 選到的 Pod 的 PodTemplateSpec
+  template:
+    # 選到的 Pod 的元資料
+    metadata:
+      # 選到的 Pod 的名稱
+      name: ginpuyuan-pod
+      labels:
+        app: backend
+        environment: develop
+
+    # 選取到的 Pod 的 PodSpec，用來定義 Pod 中的 Containers
+    spec:
+      containers:
+        # 選取到的 Pod 內的 Container 名稱
+        - name: ginpuyuan-backend
+
+          # 這個 Container 要用的 Image，預設從 DockerHub 取得
+          image: '{{ .Values.pod.image.name }}:{{ .Values.pod.image.tag }}-{{ .Values.pod.image.version }}'
+
+          # 宣告這個 Container 要對外開放的 port 類型
+          ports:
+            # 宣告這個 Container 要對外開放的 port 號
+            - containerPort: {{ .Values.pod.containerPort }}
+
+          args: ["./ginpuyuan"]
+
+          # 宣告這個 Container 要用的 Volume
+          volumeMounts:
+            - name: ginpuyuan-pv
+              mountPath: /mnt/data
+
+      # 宣告這個 Pod 要用的 Volume
+      volumes:
+        - name: ginpuyuan-pv
+          persistentVolumeClaim:
+            claimName: ginpuyuan-pvc

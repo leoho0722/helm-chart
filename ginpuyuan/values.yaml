@@ -1,0 +1,39 @@
+# ===== Deployment =====
+
+deployment:
+  replicaCount: 2
+  maxSurge: 2
+  maxUnavailable: 2
+  minReadySeconds: 60
+  revisionHistoryLimit: 10
+
+# ===== Pod =====
+
+pod:
+  image:
+    name: leoho0722/ginpuyuan
+    tag: k8s
+    version: v1.0.1
+  containerPort: 8000 # Pod 對外開放的 Port
+
+# ===== Service =====
+
+service:
+  protocol: TCP
+  port: 80 # 對應到 Service 的 Port
+  targetPort: 8000 # Pod 對外開放的 Port
+
+# ===== Ingress =====
+
+ingress:
+  port: 80 # 對應到 Service 的 Port
+
+# ===== PersistentVolume =====
+
+persistentVolume:
+  storageCapacity: 1Gi
+
+# ===== PersistentVolumeClaim =====
+
+persistentVolumeClaim:
+  storageRequests: 256Mi
