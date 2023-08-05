@@ -3,12 +3,12 @@ entries:
   ginpuyuan:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-05T17:45:51.860468+08:00"
+    created: "2023-08-05T17:48:57.805153+08:00"
     description: A Helm chart for Kubernetes
     digest: 23e439d3b5cfeb132303524817ad628f97fa8d038e80d0ecaf5dc39b4e96c147
     name: ginpuyuan
     type: application
     urls:
-    - ginpuyuan-1.0.1.tgz
+    - https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.1.tgz
     version: 1.0.1
-generated: "2023-08-05T17:45:51.859717+08:00"
+generated: "2023-08-05T17:48:57.803759+08:00"
