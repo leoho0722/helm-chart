@@ -26,8 +26,8 @@ helm upgrade ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-<REL
 
 ```shell
 # Install
-helm install ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.1.tgz
+helm install ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.5.tgz
 
 # Upgrade
-helm upgrade ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.1.tgz
+helm upgrade ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.5.tgz
 ```
