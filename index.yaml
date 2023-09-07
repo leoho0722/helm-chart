@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   ginpuyuan:
   - apiVersion: v2
+    appVersion: 1.25.0
+    created: "2023-09-07T14:08:53.415726+08:00"
+    description: A Helm chart for Kubernetes
+    digest: c12eab39a54b36c7b7032147d3c590f49c3ab3166ad56e91c5e0abf5276d3867
+    name: ginpuyuan
+    type: application
+    urls:
+    - https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.10.tgz
+    version: 1.0.10
+  - apiVersion: v2
     appVersion: 1.23.0
-    created: "2023-09-07T13:56:01.531491+08:00"
+    created: "2023-09-07T14:08:53.418828+08:00"
     description: A Helm chart for Kubernetes
     digest: d6013e23c342a6a4acaa6e11de5abe7aebcb552c940ed8db7f98c2db967f2aca
     name: ginpuyuan
@@ -13,7 +23,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2023-09-07T13:56:01.531011+08:00"
+    created: "2023-09-07T14:08:53.418463+08:00"
     description: A Helm chart for Kubernetes
     digest: 21595fbaf5ccb4571d94349b9b29a494c25e003246ba1ad687efd7c4ef15803c
     name: ginpuyuan
@@ -23,7 +33,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2023-09-07T13:56:01.530497+08:00"
+    created: "2023-09-07T14:08:53.418052+08:00"
     description: A Helm chart for Kubernetes
     digest: 48a251d8822ab8d45f6cfe6dc94635c8f5049bbe0860f312cb84ba3112bcf3b1
     name: ginpuyuan
@@ -33,7 +43,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2023-09-07T13:56:01.529864+08:00"
+    created: "2023-09-07T14:08:53.416709+08:00"
     description: A Helm chart for Kubernetes
     digest: 2d3d8fd1156e9762a0268d930df979828335d1a8eb65294c31470945066d1dde
     name: ginpuyuan
@@ -43,7 +53,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-07T13:56:01.529375+08:00"
+    created: "2023-09-07T14:08:53.41617+08:00"
     description: A Helm chart for Kubernetes
     digest: 7b11e0f11a8b19c2ce6838584222a94bb1e4f65d8faddd72b9adb2d1d2bc86d2
     name: ginpuyuan
@@ -53,7 +63,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-07T13:56:01.528771+08:00"
+    created: "2023-09-07T14:08:53.415482+08:00"
     description: A Helm chart for Kubernetes
     digest: 23e439d3b5cfeb132303524817ad628f97fa8d038e80d0ecaf5dc39b4e96c147
     name: ginpuyuan
@@ -61,4 +71,4 @@ entries:
     urls:
     - https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.1.tgz
     version: 1.0.1
-generated: "2023-09-07T13:56:01.527918+08:00"
+generated: "2023-09-07T14:08:53.41453+08:00"
