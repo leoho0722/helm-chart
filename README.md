@@ -13,21 +13,21 @@ helm repo add ginpuyuan https://leoho0722.github.io/helm-chart
 RELEASE_VERSION is latest Release version
 
 ```text
-helm install ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-<RELEASE_VERSION>.tgz
+helm install ginpuyuan https://leoho0722.github.io/helm-chart/ginpuyuan/ginpuyuan-<RELEASE_VERSION>.tgz
 ```
 
 ### Upgrade
 
 ```text
-helm upgrade ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-<RELEASE_VERSION>.tgz
+helm upgrade ginpuyuan https://leoho0722.github.io/helm-chart/ginpuyuan/ginpuyuan-<RELEASE_VERSION>.tgz
 ```
 
 #### Example
 
 ```shell
 # Install
-helm install ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.5.tgz
+helm install ginpuyuan https://leoho0722.github.io/helm-chart/ginpuyuan/ginpuyuan-1.0.11.tgz
 
 # Upgrade
-helm upgrade ginpuyuan-api https://leoho0722.github.io/helm-chart/ginpuyuan-1.0.5.tgz
+helm upgrade ginpuyuan https://leoho0722.github.io/helm-chart/ginpuyuan/ginpuyuan-1.0.11.tgz
 ```
