@@ -17,5 +17,6 @@ helm install ginpuyuan leoho0722/ginpuyuan
 ### Upgrade
 
 ```shell
+helm repo update
 helm upgrade ginpuyuan leoho0722/ginpuyuan
 ```
