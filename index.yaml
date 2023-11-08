@@ -101,6 +101,17 @@ entries:
     urls:
     - https://leoho0722.github.io/helm-chart/ginpuyuan/ginpuyuan-1.0.1.tgz
     version: 1.0.1
+  mosquitto-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-08T18:33:49.431058+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 1d5549f969421d4ca59492b909fb25e96a6bf8589042164e1ccd3648728caac6
+    name: mosquitto-test
+    type: application
+    urls:
+    - mosquitto-test-0.1.0.tgz
+    version: 0.1.0
   prometheus-monitoring:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -132,4 +143,4 @@ entries:
     urls:
     - https://leoho0722.github.io/helm-chart/prometheus-monitoring/prometheus-monitoring-1.0.0.tgz
     version: 1.0.0
-generated: "2023-09-10T14:32:02.358569+08:00"
+generated: "2023-11-08T18:33:49.430381+08:00"
