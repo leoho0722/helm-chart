@@ -3,7 +3,7 @@ entries:
   ginpuyuan:
     - apiVersion: v2
       appVersion: 1.28.0
-      created: "2023-11-09T19:14:46.626466+08:00"
+      created: "2023-11-09T19:21:31.931874+08:00"
       description: A Helm chart for Kubernetes
       digest: 18f6664ca30b61f0a7fcd3ed5bf2bc59318f46b34408daf4084b88f93cbe2034
       name: ginpuyuan
@@ -13,7 +13,7 @@ entries:
       version: 1.0.13
     - apiVersion: v2
       appVersion: 1.27.0
-      created: "2023-11-09T19:14:46.625887+08:00"
+      created: "2023-11-09T19:21:31.931311+08:00"
       description: A Helm chart for Kubernetes
       digest: 07fd18a1835a712e05bf875b71d1b37f57a89ce62b53d897a61166ce2890b5ff
       name: ginpuyuan
@@ -23,7 +23,7 @@ entries:
       version: 1.0.12
     - apiVersion: v2
       appVersion: 1.26.0
-      created: "2023-11-09T19:14:46.625435+08:00"
+      created: "2023-11-09T19:21:31.930806+08:00"
       description: A Helm chart for Kubernetes
       digest: a0f81d319146dae4204d41c135584c83b64ef52e7d72bbbe7e6ab79ef5d553f7
       name: ginpuyuan
@@ -33,7 +33,7 @@ entries:
       version: 1.0.11
     - apiVersion: v2
       appVersion: 1.25.0
-      created: "2023-11-09T19:14:46.62503+08:00"
+      created: "2023-11-09T19:21:31.928631+08:00"
       description: A Helm chart for Kubernetes
       digest: 7663dbe45284c32502d5c2ecc4369168d3fbc5f737b5685bf5744fb1d752fd56
       name: ginpuyuan
@@ -43,7 +43,7 @@ entries:
       version: 1.0.10
     - apiVersion: v2
       appVersion: 1.23.0
-      created: "2023-11-09T19:14:46.629222+08:00"
+      created: "2023-11-09T19:21:31.93399+08:00"
       description: A Helm chart for Kubernetes
       digest: d6013e23c342a6a4acaa6e11de5abe7aebcb552c940ed8db7f98c2db967f2aca
       name: ginpuyuan
@@ -53,7 +53,7 @@ entries:
       version: 1.0.9
     - apiVersion: v2
       appVersion: 1.19.0
-      created: "2023-11-09T19:14:46.628332+08:00"
+      created: "2023-11-09T19:21:31.93353+08:00"
       description: A Helm chart for Kubernetes
       digest: 21595fbaf5ccb4571d94349b9b29a494c25e003246ba1ad687efd7c4ef15803c
       name: ginpuyuan
@@ -63,7 +63,7 @@ entries:
       version: 1.0.5
     - apiVersion: v2
       appVersion: 1.17.0
-      created: "2023-11-09T19:14:46.627844+08:00"
+      created: "2023-11-09T19:21:31.933143+08:00"
       description: A Helm chart for Kubernetes
       digest: 48a251d8822ab8d45f6cfe6dc94635c8f5049bbe0860f312cb84ba3112bcf3b1
       name: ginpuyuan
@@ -73,7 +73,7 @@ entries:
       version: 1.0.4
     - apiVersion: v2
       appVersion: 1.17.0
-      created: "2023-11-09T19:14:46.627366+08:00"
+      created: "2023-11-09T19:21:31.93275+08:00"
       description: A Helm chart for Kubernetes
       digest: 2d3d8fd1156e9762a0268d930df979828335d1a8eb65294c31470945066d1dde
       name: ginpuyuan
@@ -83,7 +83,7 @@ entries:
       version: 1.0.3
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.626938+08:00"
+      created: "2023-11-09T19:21:31.932334+08:00"
       description: A Helm chart for Kubernetes
       digest: 7b11e0f11a8b19c2ce6838584222a94bb1e4f65d8faddd72b9adb2d1d2bc86d2
       name: ginpuyuan
@@ -93,7 +93,7 @@ entries:
       version: 1.0.2
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.624513+08:00"
+      created: "2023-11-09T19:21:31.927996+08:00"
       description: A Helm chart for Kubernetes
       digest: 23e439d3b5cfeb132303524817ad628f97fa8d038e80d0ecaf5dc39b4e96c147
       name: ginpuyuan
@@ -104,7 +104,7 @@ entries:
   it15th:
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.629713+08:00"
+      created: "2023-11-09T19:21:31.93437+08:00"
       description: A Helm chart for Kubernetes
       digest: ce7ed5a68d7ede70da04d15724e0dad819898e2f74c526c3c9305aa9d62e324b
       name: it15th
@@ -115,7 +115,17 @@ entries:
   mosquitto-test:
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.633587+08:00"
+      created: "2023-11-09T19:21:31.939732+08:00"
+      description: A Helm chart for Kubernetes
+      digest: fdb608050e2d958e74b80e1ebac187e9800e40f0cf20e5bfdc2f3e96ef732836
+      name: mosquitto-test
+      type: application
+      urls:
+        - https://leoho0722.github.io/helm-chart/mosquitto-test/mosquitto-test-0.6.0.tgz
+      version: 0.6.0
+    - apiVersion: v2
+      appVersion: 1.16.0
+      created: "2023-11-09T19:21:31.939468+08:00"
       description: A Helm chart for Kubernetes
       digest: 88e44d90d57eba705045c9f98e967efd700af46ba34e22842cc41c6999b6b38b
       name: mosquitto-test
@@ -125,7 +135,7 @@ entries:
       version: 0.5.2
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.633175+08:00"
+      created: "2023-11-09T19:21:31.939012+08:00"
       description: A Helm chart for Kubernetes
       digest: fe6886877d7a26b0e07a32389ce7b9cab09391bf2ceff67b028a168806d9547c
       name: mosquitto-test
@@ -135,7 +145,7 @@ entries:
       version: 0.5.1
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.632658+08:00"
+      created: "2023-11-09T19:21:31.937104+08:00"
       description: A Helm chart for Kubernetes
       digest: 5da7574425e8daf34cdd4c2d24064d75802d5161eda4ad40fa516824580d8266
       name: mosquitto-test
@@ -145,7 +155,7 @@ entries:
       version: 0.5.0
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.632142+08:00"
+      created: "2023-11-09T19:21:31.936554+08:00"
       description: A Helm chart for Kubernetes
       digest: 137fb4b0abbbaa3bc8f2d49914d5161a7536cf99674841e213f9f5d65265b0bc
       name: mosquitto-test
@@ -155,7 +165,7 @@ entries:
       version: 0.4.1
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.631645+08:00"
+      created: "2023-11-09T19:21:31.936118+08:00"
       description: A Helm chart for Kubernetes
       digest: 3746decc0683057940a4a57cfe8f7ca63f3a9463b96d09e97dde2fd9734edd10
       name: mosquitto-test
@@ -165,7 +175,7 @@ entries:
       version: 0.4.0
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.631137+08:00"
+      created: "2023-11-09T19:21:31.935729+08:00"
       description: A Helm chart for Kubernetes
       digest: 4ad780dc14ecdb08ebc7196ae988abac38f1ff5fddc7e3065479c686f8ca90ac
       name: mosquitto-test
@@ -175,7 +185,7 @@ entries:
       version: 0.3.0
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.63058+08:00"
+      created: "2023-11-09T19:21:31.935206+08:00"
       description: A Helm chart for Kubernetes
       digest: fd76431bf25f40941fc953bd4193905d402b786f1885032ed71e6c4f4a4bfb49
       name: mosquitto-test
@@ -185,7 +195,7 @@ entries:
       version: 0.2.0
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.630142+08:00"
+      created: "2023-11-09T19:21:31.934774+08:00"
       description: A Helm chart for Kubernetes
       digest: 1d5549f969421d4ca59492b909fb25e96a6bf8589042164e1ccd3648728caac6
       name: mosquitto-test
@@ -196,7 +206,7 @@ entries:
   prometheus-monitoring:
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.634928+08:00"
+      created: "2023-11-09T19:21:31.940974+08:00"
       description: A Helm chart for Kubernetes
       digest: a5c9617408761eec5bb85b3be4c39bd2695901b402e0cbb0970f6aa4ca87209c
       name: prometheus-monitoring
@@ -206,7 +216,7 @@ entries:
       version: 1.0.2
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.634492+08:00"
+      created: "2023-11-09T19:21:31.940594+08:00"
       description: A Helm chart for Kubernetes
       digest: bed53451dc929bd361b0ec122f8df09cad688e15dcb2946908f6a676bc2e3083
       name: prometheus-monitoring
@@ -216,7 +226,7 @@ entries:
       version: 1.0.1
     - apiVersion: v2
       appVersion: 1.16.0
-      created: "2023-11-09T19:14:46.634065+08:00"
+      created: "2023-11-09T19:21:31.940185+08:00"
       description: A Helm chart for Kubernetes
       digest: 9435cbae8a66b1338530d0703776e03b58f4e1a601e1daa96921b12401a1b0af
       name: prometheus-monitoring
@@ -224,4 +234,4 @@ entries:
       urls:
         - https://leoho0722.github.io/helm-chart/prometheus-monitoring/prometheus-monitoring-1.0.0.tgz
       version: 1.0.0
-generated: "2023-11-09T19:14:46.62402+08:00"
+generated: "2023-11-09T19:21:31.926634+08:00"
