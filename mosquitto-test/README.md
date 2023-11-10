@@ -12,6 +12,7 @@ helm repo update
 ### Install
 
 ```shell
+helm repo update
 helm install mosquitto-test leoho0722/mosquitto-test
 ```
 
@@ -20,4 +21,11 @@ helm install mosquitto-test leoho0722/mosquitto-test
 ```shell
 helm repo update
 helm upgrade mosquitto-test leoho0722/mosquitto-test
+```
+
+### Uninstall
+
+```shell
+helm unintsall mosquitto-test
+helm repo update
 ```
