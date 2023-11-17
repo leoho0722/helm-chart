@@ -26,6 +26,6 @@ helm upgrade mosquitto-test leoho0722/mosquitto-test
 ### Uninstall
 
 ```shell
-helm unintsall mosquitto-test
+helm uninstall mosquitto-test
 helm repo update
 ```
