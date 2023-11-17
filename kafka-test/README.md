@@ -1,4 +1,4 @@
-# mosquitto-kafka-test Helm Chart
+# kafka-test Helm Chart
 
 ## Usage
 
@@ -13,19 +13,19 @@ helm repo update
 
 ```shell
 helm repo update
-helm install mosquitto-kafka-test leoho0722/mosquitto-kafka-test
+helm install kafka-test leoho0722/kafka-test
 ```
 
 ### Upgrade
 
 ```shell
 helm repo update
-helm upgrade mosquitto-kafka-test leoho0722/mosquitto-kafka-test
+helm upgrade kafka-test leoho0722/kafka-test
 ```
 
 ### Uninstall
 
 ```shell
-helm unintsall mosquitto-kafka-test
+helm unintsall kafka-test
 helm repo update
 ```
