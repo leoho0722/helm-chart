@@ -26,6 +26,6 @@ helm upgrade kafka-test leoho0722/kafka-test
 ### Uninstall
 
 ```shell
-helm unintsall kafka-test
+helm uninstall kafka-test
 helm repo update
 ```
