@@ -31,3 +31,8 @@ helm upgrade mosquitto-test leoho0722/mosquitto-test
 helm uninstall mosquitto-test
 helm repo update
 ```
+
+## Release Notes
+
+* mosquitto-0.14.0 (**Latest version**)
+  * description：這版可以做到一個 Publisher 發送一個 Topic 到 Broker，並且 Broker 可以做到 Auto Scaling 和 Load Balancing
